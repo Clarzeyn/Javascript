@@ -18,5 +18,36 @@
     console.log(template);
 
 
+    // Multiiline String
+    let multiLIneString = `
+    Nama Saya Wildan Mochamad Nur Fallah
+    Saya Berumur 18 Tahun
+    Saya Tinggal Di Bandung
+    Hehe
+    `;
+
+    document.writeln('<pre>');
+    document.writeln(multiLIneString);
+    document.writeln('</pre>');
+
+
+    // Konversi String
+    const value1 = parseInt("1");
+    const value2 = 2;
+
+    const sum = value1 + value2;
+
+    document.writeln(`<p> ${sum} </p>`);
+
+    document.writeln(`<p> ${parseInt("1.1")} </p>`);
+    document.writeln(`<p> ${parseFloat("1.1")} </p>`);
+    document.writeln(`<p> ${Number("1.1")} </p>`);
+
+    const a = 1;
+    const b = 2;
+    const total = a.toString() + b.toString();
+
+    document.writeln(`<p> ${total} </p>`);
+
 </script>
 </html>
